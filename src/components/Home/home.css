@@ -1,0 +1,42 @@
+.main{
+    width: 100%;
+    left: 0px;
+    top: 100px;
+    height: 755px;
+    /* beige */
+    
+    background: #FAF1E2;
+
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    
+}
+.content-img{
+ 
+}
+.heading {
+    position: relative; 
+    font-weight: 600;
+    text-align: left;
+    font-size: 70px;
+    line-height: 85px;
+    letter-spacing: -0.03em;
+    color: #0A3180;
+    z-index: 12;
+}
+
+.heading::after {
+    position:absolute;
+    content: "";
+    background-size: cover !important;
+    width: 70%;
+    height: 10px;
+    z-index: -1;
+    left: 50%;
+transform: translateX(-50%);
+    bottom: 90px;
+    background: url('../../assets/images/Vector.png') no-repeat center;
+}
