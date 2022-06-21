@@ -1,24 +1,69 @@
-.main{
+.main {
     width: 100%;
     left: 0px;
     top: 100px;
     height: 755px;
     /* beige */
-    
+
     background: #FAF1E2;
 
 }
-.inner{
+
+.inner {
     display: flex;
     justify-content: space-between;
     padding: 5%;
-    
+
 }
-.content-img{
- 
+
+.content-img {
+
+    position: relative;
+    text-align: center;
+    color: white
 }
+
+.image-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+
+}
+
+.image-button {
+    /* Button */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 225px;
+    height: 52px;
+    left: 1192px;
+    top: 473px;
+
+    background: #FFFFFF;
+    /* blue */
+
+    border: 1px solid #0A3180;
+    /* shadow right */
+
+    box-shadow: 4px 2px 0px #F39E41;
+    border-radius: 32px;
+}
+
 .heading {
-    position: relative; 
+    position: relative;
     font-weight: 600;
     text-align: left;
     font-size: 70px;
@@ -26,17 +71,25 @@
     letter-spacing: -0.03em;
     color: #0A3180;
     z-index: 12;
+ 
+
 }
 
 .heading::after {
-    position:absolute;
+    position: absolute;
     content: "";
     background-size: cover !important;
     width: 70%;
     height: 10px;
     z-index: -1;
     left: 50%;
-transform: translateX(-50%);
+    transform: translateX(-50%);
     bottom: 90px;
     background: url('../../assets/images/Vector.png') no-repeat center;
+}
+
+.image-div {
+    background-color: white;
+    width: 100%;
+    padding: 2%;
 }

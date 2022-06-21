@@ -1,6 +1,6 @@
 import './App.css';
-import Layout from '../src/components/@core/layouts/layout-wrapper';
-import  Home from './components/Home';
+import Layout from '@components/@core/layouts/layout-wrapper';
+import  Home from '@components/Home';
 function App() {
   return (
     <div className="App">

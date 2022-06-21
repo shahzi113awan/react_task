@@ -7,19 +7,19 @@ export default function header() {
         <div className='header'>
             <ul className="unorder-list">
                 <li className='list-item'>
-                    <a href="#">uxirl.pl</a>
+                    <a href="/#">uxirl.pl</a>
                 </li>
                 <li className='list-item'>
-                    <a href="#">Czy to dla mnie?</a>
+                    <a href="/#">Czy to dla mnie?</a>
                 </li>
                 <li className='list-item'>
-                    <a href="#">Jak wygląda badanie?</a>
+                    <a href="/#">Jak wygląda badanie?</a>
                 </li>
                 <li className='list-item'>
-                    <a href="#">Koszt badania</a>
+                    <a href="/#">Koszt badania</a>
                 </li>
                 <li className='list-item'>
-                    <a href="#">uxirl.pl</a>
+                    <a href="/#">uxirl.pl</a>
                 </li>
                 <button className='pomoc'>
                 Pomoc

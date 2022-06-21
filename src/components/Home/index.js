@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
-import chiprha from '../../assets/images/Vector.png'
 import img from '../../assets/images/Rectangle.png'
+// import Header from ''
 export default function index() {
     return (
         <>
@@ -13,9 +13,13 @@ export default function index() {
                             użytkownikami.</span>
                     </div>
 
-                <div className="content">
-                    <img className="content-img" src={img}></img>
-                </div>
+                    <div className="content">
+                        <div className="image-div">
+                            <img className="content-img" src={img} alt="" />
+                            <span className='image-txt'>Zobacz przykładowy test</span>
+                            <button className='image-button'>Odtwórz (2 min)</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
